@@ -1,3 +1,4 @@
+//! Creating and manipulating references to specific objects and data regions in an HDF5 file
 pub use self::H5R_type_t::*;
 
 use crate::internal_prelude::*;
