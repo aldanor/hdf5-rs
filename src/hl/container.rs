@@ -346,6 +346,7 @@ impl<'a> Writer<'a> {
 
 #[repr(transparent)]
 #[derive(Clone)]
+/// An object which can be read or written to.
 pub struct Container(Handle);
 
 impl ObjectClass for Container {
